@@ -1,0 +1,130 @@
+@media (min-width: 2000px){
+    main{
+        section{
+            .portada_apollo{
+                .texto_portada{
+                    margin-left: 60vw;
+                    h2{
+                        font-size: 5.5rem;
+                    }
+                    p{
+                        font-size: 2.5rem;
+                        padding-right: 10rem;
+                    }
+                }
+            }
+            .texto_presentacion_apollo{
+                h2{
+                    font-size: 4rem;
+                }
+                p{
+                    font-size: 2.5rem;
+                }
+            }
+            .text_prin_proy{
+                h2{
+                    font-size: 7rem !important;
+                }
+                p{
+                    font-size: 1.8rem !important;
+                }
+            }
+            .scc_proy_sec{
+                .img_sec_proy{
+                    h3{
+                        font-size: 3.5rem !important;
+                    }
+                }
+            }
+            .clientes_apollo{
+                h2{
+                    padding-top: 4rem;
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+    footer{
+        .foot_apollo{
+            .texto_foot{
+                font-size: 1.2rem;
+                p{
+                    margin: 0.25rem 0;
+                }
+                a{
+                    margin: 0.75rem 0;
+                }
+                i{
+                    margin-right: 1rem;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px){
+    main{
+        section{
+            .portada_apollo{
+                .texto_portada{
+                    margin-left: 58vw;
+                    top: 45%;
+                    h2{
+                        font-size: 3.2rem;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        padding-right: 5rem;
+                    }
+                }
+            }
+            .texto_presentacion_apollo{
+                h2{
+                    font-size: 2.7rem;
+                }
+                p{
+                    font-size: 1.1rem;
+                }
+            }
+            .text_prin_proy{
+                h2{
+                    font-size: 4rem !important;
+                }
+                p{
+                    font-size: 1rem !important;
+                }
+            }
+            .scc_proy_sec{
+                .img_sec_proy{
+                    h3{
+                        font-size: 2.25rem !important;
+                    }
+                }
+            }
+            .clientes_apollo{
+                h2{
+                    padding-top: 1.25rem;
+                    font-size: 1.75rem;
+                }
+            }
+        }
+    }
+    footer{
+        .foot_apollo{
+            .texto_foot{
+                font-size: 0.7rem;
+                p{
+                    margin: 0.15rem 0;
+                }
+                a{
+                    margin: 0.5rem 0;
+                }
+                i{
+                    margin-right: 0.7rem;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
