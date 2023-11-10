@@ -1,0 +1,93 @@
+section{
+    .pagina_proyecto_apollo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        .texto_pagina_proyecto{
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 33.333%;
+            color: #fff;
+            .sidenav {
+                height: 100vh;
+                width: 0;
+                position: fixed;
+                z-index: 2;
+                top: 0;
+                left: 0;
+                background-color: #fff;
+                overflow-x: hidden;
+                transition: 0.2s ease-in-out;
+                display: flex;
+                flex-wrap: wrap;
+                flex-flow: column;
+                a{
+                    display: inline-block;
+                    color: #000;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    padding: 1.1% 10%;
+                    white-space: nowrap;
+                    max-width: 100%;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    i{
+                        font-weight: 800;
+                        padding: 4.4% 0;
+                        font-size: 2.3rem;
+                    }
+                    &:hover{
+                        background-color: #ddd;
+                    }
+                }
+                .closebtn{
+                    background-color: #fff !important;
+                }
+                .proy_seleccionado{
+                    background-color: #000 !important;
+                    color: #fff !important;
+                    cursor: default;
+                }
+            }
+            .open_sidenav{
+                cursor: pointer;
+                display: block;
+                width: 80%;
+                margin: 5% auto;
+                i{
+                    font-size: 2rem;
+                }
+            }
+            h2{
+                width: 80%;
+                margin: 10% auto;
+                font-size: 4rem;
+                font-weight: 700;
+                line-height: 1.2;
+            }
+            p{
+                width: 80%;
+                margin: 0 auto;
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.8;
+            }
+        }
+        .imgs_pagina_proyecto{
+            width: 66.666%;
+            margin-left: 33.333%;
+            background-color: #fff;
+            img{
+                width: 90%;
+                margin: 2.5% 5%;
+                aspect-ratio: 3/2;
+                object-fit: cover;
+            }
+        }
+    }
+}
