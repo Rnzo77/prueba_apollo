@@ -172,6 +172,92 @@ section {
       aspect-ratio: 3/2;
       object-fit: contain; }
 
+section .pagina_proyecto_apollo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 33.333%;
+    color: #fff; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav {
+      height: 100vh;
+      width: 0;
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      left: 0;
+      background-color: #fff;
+      overflow-x: hidden;
+      transition: 0.2s ease-in-out;
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: column; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .boton_responsive_portrait {
+        display: none; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
+        display: inline-block;
+        color: #000;
+        font-size: 1.24vw;
+        font-weight: 700;
+        padding: 1.1% 10%;
+        white-space: nowrap;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+        section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
+          font-weight: 800;
+          padding: 4.4% 0;
+          font-size: 2.4vw; }
+        section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a:hover {
+          background-color: #ccc; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .closebtn {
+        background-color: #fff !important; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .proy_seleccionado {
+        background-color: #000 !important;
+        color: #fff !important;
+        cursor: default; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav {
+      cursor: pointer;
+      display: block;
+      width: 80%;
+      margin: 5% auto; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
+        font-size: 2.1vw; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .boton_responsive_portrait {
+      display: none; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto h2 {
+      width: 80%;
+      margin: 6% auto;
+      font-size: 4vw;
+      font-weight: 700;
+      line-height: 1.2; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .texto_servicios {
+      margin: 2.5% auto;
+      font-size: 1.2vw;
+      font-weight: 500; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto p {
+      width: 80%;
+      margin: 0 auto;
+      font-size: 1.05vw;
+      font-weight: 300;
+      line-height: 160%; }
+  section .pagina_proyecto_apollo .imgs_pagina_proyecto {
+    width: 66.666%;
+    margin-left: 33.333%;
+    background-color: #fff; }
+    section .pagina_proyecto_apollo .imgs_pagina_proyecto img {
+      width: 90%;
+      margin: 2.5% 5%;
+      aspect-ratio: 3/2;
+      object-fit: cover; }
+
 footer {
   position: relative;
   bottom: 0;
@@ -233,6 +319,17 @@ footer {
     height: 26vh; }
     section .clientes_apollo h2 {
       font-size: 2vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
+    font-size: 1.33vw; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
+      font-size: 2.6vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
+    font-size: 2.4vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .texto_servicios {
+    margin: 3% auto;
+    font-size: 1.3vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto p {
+    font-size: 1.2vw; }
   footer {
     height: 13vh; }
     footer .texto_foot {
@@ -265,6 +362,17 @@ footer {
     line-height: 150%; }
   section .clientes_apollo h2 {
     font-size: 2.4vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
+    font-size: 1.5vw; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
+      font-size: 2.8vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
+    font-size: 2.6vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .texto_servicios {
+    margin: 5% auto;
+    font-size: 1.5vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto p {
+    font-size: 1.4vw; }
   footer {
     height: 13vh; }
     footer .texto_foot {
@@ -309,6 +417,17 @@ footer {
     height: 20vh; }
     section .clientes_apollo h2 {
       font-size: 2.2vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
+    font-size: 1.65vw; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
+      font-size: 3vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
+    font-size: 2.8vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .texto_servicios {
+    margin: 7.5% auto;
+    font-size: 1.7vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto p {
+    font-size: 1.5vw; }
   footer {
     height: 13vh; }
     footer .texto_foot {
@@ -355,6 +474,17 @@ footer {
     padding: 3% 0; }
     section .clientes_apollo h2 {
       font-size: 2.4vh; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
+    font-size: 1.75vw; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
+      font-size: 3.2vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
+    font-size: 3vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto .texto_servicios {
+    margin: 7.5% auto;
+    font-size: 2vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto p {
+    font-size: 1.5vw; }
   footer {
     height: 20vh;
     background-size: 30% !important;
@@ -406,6 +536,58 @@ footer {
     padding: 3% 0; }
     section .clientes_apollo h2 {
       font-size: 2.4vh; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto {
+    position: static;
+    width: 100%; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav {
+      height: 0;
+      width: 100%; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .boton_responsive_landscape {
+        display: none; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .boton_responsive_portrait {
+        display: inline-block; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .closebtn {
+        text-align: right;
+        padding: 2.4% 4.6%; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
+        font-size: 2.2vh;
+        padding: 1.25% 5%; }
+        section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
+          padding: 0;
+          font-size: 4vh; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav {
+      text-align: right;
+      margin: 0;
+      position: fixed;
+      display: inline-block;
+      background-color: #000;
+      width: 100%;
+      z-index: -1; }
+      section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
+        z-index: 2;
+        font-size: 2.8vh;
+        margin: 3% 5%; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .boton_responsive_landscape {
+      display: none; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .boton_responsive_portrait {
+      display: inline-block; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto h2 {
+      margin: 12.5% auto 3%;
+      font-size: 5.2vh; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto .texto_servicios {
+      margin: 2% auto;
+      font-size: 1.8vh; }
+    section .pagina_proyecto_apollo .texto_pagina_proyecto p {
+      font-size: 1.3vh;
+      margin-bottom: 10%; }
+  section .pagina_proyecto_apollo .imgs_pagina_proyecto {
+    margin: 0;
+    padding: 2.5% 0;
+    width: 100%;
+    text-align: center; }
+    section .pagina_proyecto_apollo .imgs_pagina_proyecto img {
+      width: 95%;
+      margin: 2.5% 0; }
   footer {
     height: 26vh;
     background-size: 40% !important; }
@@ -449,6 +631,14 @@ footer {
     padding: 7% 0; }
     section .clientes_apollo h2 {
       font-size: 5vw; }
+  section .pagina_proyecto_apollo .texto_pagina_proyecto h2 {
+    margin: 12% auto 3%;
+    font-size: 5vh; }
+  section .pagina_proyecto_apollo .imgs_pagina_proyecto {
+    padding: 0; }
+    section .pagina_proyecto_apollo .imgs_pagina_proyecto img {
+      width: 100%;
+      margin: 3% 0; }
   footer {
     background-size: 60% !important; }
     footer .foot_apollo {
@@ -459,81 +649,3 @@ footer {
         font-size: 2.2vw !important; }
         footer .foot_apollo .texto_foot i {
           font-size: 4vw !important; } }
-
-section .pagina_proyecto_apollo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: relative; }
-  section .pagina_proyecto_apollo .texto_pagina_proyecto {
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 33.333%;
-    color: #fff; }
-    section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav {
-      height: 100vh;
-      width: 0;
-      position: fixed;
-      z-index: 2;
-      top: 0;
-      left: 0;
-      background-color: #fff;
-      overflow-x: hidden;
-      transition: 0.2s ease-in-out;
-      display: flex;
-      flex-wrap: wrap;
-      flex-flow: column; }
-      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a {
-        display: inline-block;
-        color: #000;
-        font-size: 1.2rem;
-        font-weight: 700;
-        padding: 1.1% 10%;
-        white-space: nowrap;
-        max-width: 100%;
-        overflow: hidden;
-        text-overflow: ellipsis; }
-        section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a i {
-          font-weight: 800;
-          padding: 4.4% 0;
-          font-size: 2.3rem; }
-        section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav a:hover {
-          background-color: #ddd; }
-      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .closebtn {
-        background-color: #fff !important; }
-      section .pagina_proyecto_apollo .texto_pagina_proyecto .sidenav .proy_seleccionado {
-        background-color: #000 !important;
-        color: #fff !important;
-        cursor: default; }
-    section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav {
-      cursor: pointer;
-      display: block;
-      width: 80%;
-      margin: 5% auto; }
-      section .pagina_proyecto_apollo .texto_pagina_proyecto .open_sidenav i {
-        font-size: 2rem; }
-    section .pagina_proyecto_apollo .texto_pagina_proyecto h2 {
-      width: 80%;
-      margin: 10% auto;
-      font-size: 4rem;
-      font-weight: 700;
-      line-height: 1.2; }
-    section .pagina_proyecto_apollo .texto_pagina_proyecto p {
-      width: 80%;
-      margin: 0 auto;
-      font-size: 1rem;
-      font-weight: 300;
-      line-height: 1.8; }
-  section .pagina_proyecto_apollo .imgs_pagina_proyecto {
-    width: 66.666%;
-    margin-left: 33.333%;
-    background-color: #fff; }
-    section .pagina_proyecto_apollo .imgs_pagina_proyecto img {
-      width: 90%;
-      margin: 2.5% 5%;
-      aspect-ratio: 3/2;
-      object-fit: cover; }

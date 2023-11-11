@@ -13,7 +13,7 @@ section{
             height: 100%;
             width: 33.333%;
             color: #fff;
-            .sidenav {
+            .sidenav{
                 height: 100vh;
                 width: 0;
                 position: fixed;
@@ -26,10 +26,13 @@ section{
                 display: flex;
                 flex-wrap: wrap;
                 flex-flow: column;
+                .boton_responsive_portrait{
+                    display: none;
+                }
                 a{
                     display: inline-block;
                     color: #000;
-                    font-size: 1.2rem;
+                    font-size: 1.24vw;
                     font-weight: 700;
                     padding: 1.1% 10%;
                     white-space: nowrap;
@@ -39,10 +42,10 @@ section{
                     i{
                         font-weight: 800;
                         padding: 4.4% 0;
-                        font-size: 2.3rem;
+                        font-size: 2.4vw;
                     }
                     &:hover{
-                        background-color: #ddd;
+                        background-color: #ccc;
                     }
                 }
                 .closebtn{
@@ -60,22 +63,30 @@ section{
                 width: 80%;
                 margin: 5% auto;
                 i{
-                    font-size: 2rem;
+                    font-size: 2.1vw;
                 }
+            }
+            .boton_responsive_portrait{
+                display: none;
             }
             h2{
                 width: 80%;
-                margin: 10% auto;
-                font-size: 4rem;
+                margin: 6% auto;
+                font-size: 4vw;
                 font-weight: 700;
                 line-height: 1.2;
+            }
+            .texto_servicios{
+                margin: 2.5% auto;
+                font-size: 1.2vw;
+                font-weight: 500;
             }
             p{
                 width: 80%;
                 margin: 0 auto;
-                font-size: 1rem;
+                font-size: 1.05vw;
                 font-weight: 300;
-                line-height: 1.8;
+                line-height: 160%;
             }
         }
         .imgs_pagina_proyecto{

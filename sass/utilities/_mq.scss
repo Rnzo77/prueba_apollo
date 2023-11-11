@@ -44,6 +44,30 @@
                 font-size: 2vw;
             }
         }
+        .pagina_proyecto_apollo{
+            .texto_pagina_proyecto{
+                .sidenav{
+                    a{
+                        font-size: 1.33vw;
+                        i{
+                            font-size: 2.6vw;
+                        }
+                    }
+                }
+                .open_sidenav{
+                    i{
+                        font-size: 2.4vw;
+                    }
+                }
+                .texto_servicios{
+                    margin: 3% auto;
+                    font-size: 1.3vw;
+                }
+                p{
+                    font-size: 1.2vw;
+                }
+            }
+        }
     }
     footer{
         height: 13vh;
@@ -104,6 +128,30 @@
         .clientes_apollo{
             h2{
                 font-size: 2.4vw;
+            }
+        }
+        .pagina_proyecto_apollo{
+            .texto_pagina_proyecto{
+                .sidenav{
+                    a{
+                        font-size: 1.5vw;
+                        i{
+                            font-size: 2.8vw;
+                        }
+                    }
+                }
+                .open_sidenav{
+                    i{
+                        font-size: 2.6vw;
+                    }
+                }
+                .texto_servicios{
+                    margin: 5% auto;
+                    font-size: 1.5vw;
+                }
+                p{
+                    font-size: 1.4vw;
+                }
             }
         }
     }
@@ -181,6 +229,30 @@
                 font-size: 2.2vw;
             }
         }
+        .pagina_proyecto_apollo{
+            .texto_pagina_proyecto{
+                .sidenav{
+                    a{
+                        font-size: 1.65vw;
+                        i{
+                            font-size: 3vw;
+                        }
+                    }
+                }
+                .open_sidenav{
+                    i{
+                        font-size: 2.8vw;
+                    }
+                }
+                .texto_servicios{
+                    margin: 7.5% auto;
+                    font-size: 1.7vw;
+                }
+                p{
+                    font-size: 1.5vw;
+                }
+            }
+        }
     }
     footer{
         height: 13vh;
@@ -255,6 +327,30 @@
             padding: 3% 0;
             h2{
                 font-size: 2.4vh;
+            }
+        }
+        .pagina_proyecto_apollo{
+            .texto_pagina_proyecto{
+                .sidenav{
+                    a{
+                        font-size: 1.75vw;
+                        i{
+                            font-size: 3.2vw;
+                        }
+                    }
+                }
+                .open_sidenav{
+                    i{
+                        font-size: 3vw;
+                    }
+                }
+                .texto_servicios{
+                    margin: 7.5% auto;
+                    font-size: 2vw;
+                }
+                p{
+                    font-size: 1.5vw;
+                }
             }
         }
     }
@@ -338,6 +434,76 @@
                 font-size: 2.4vh;
             }
         }
+        .pagina_proyecto_apollo{
+            .texto_pagina_proyecto{
+                position: static;
+                width: 100%;
+                .sidenav{
+                    height: 0;
+                    width: 100%;
+                    .boton_responsive_landscape{
+                        display: none;
+                    }
+                    .boton_responsive_portrait{
+                        display: inline-block;
+                    }
+                    .closebtn{
+                        text-align: right;
+                        padding: 2.4% 4.6%;
+                    }
+                    a{
+                        font-size: 2.2vh;
+                        padding: 1.25% 5%;
+                        i{
+                            padding: 0;
+                            font-size: 4vh;
+                        }
+                    }
+                }
+                .open_sidenav{
+                    text-align: right;
+                    margin: 0;
+                    position: fixed;
+                    display: inline-block;
+                    background-color: #000;
+                    width: 100%;
+                    z-index: -1;
+                    i{
+                        z-index: 2;
+                        font-size: 2.8vh;
+                        margin: 3% 5%;
+                    }
+                }
+                .boton_responsive_landscape{
+                    display: none;
+                }
+                .boton_responsive_portrait{
+                    display: inline-block;
+                }
+                h2{
+                    margin: 12.5% auto 3%;
+                    font-size: 5.2vh;
+                }
+                .texto_servicios{
+                    margin: 2% auto;
+                    font-size: 1.8vh;
+                }
+                p{
+                    font-size: 1.3vh;
+                    margin-bottom: 10%;
+                }
+            }
+            .imgs_pagina_proyecto{
+                margin: 0;
+                padding: 2.5% 0;
+                width: 100%;
+                text-align: center;
+                img{
+                    width: 95%;
+                    margin: 2.5% 0;
+                }
+            }
+        }
     }
     footer{
         height: 26vh;
@@ -410,6 +576,21 @@
             padding: 7% 0;
             h2{
                 font-size: 5vw;
+            }
+        }
+        .pagina_proyecto_apollo{
+            .texto_pagina_proyecto{
+                h2{
+                    margin: 12% auto 3%;
+                    font-size: 5vh;
+                }
+            }
+            .imgs_pagina_proyecto{
+                padding: 0;
+                img{
+                    width: 100%;
+                    margin: 3% 0;
+                }
             }
         }
     }
