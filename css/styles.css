@@ -9,18 +9,20 @@
 a {
   text-decoration: none; }
 
-/* flex */
-header {
-  display: none; }
-  header h1 {
-    display: none; }
-
 body {
   width: 100%;
   background-color: #000;
   font-family: 'Open Sans', sans-serif; }
   body .italicas {
     font-style: italic; }
+  body .prin_proy_portrait {
+    display: none; }
+
+/* flex */
+header {
+  display: none; }
+  header h1 {
+    display: none; }
 
 section {
   width: 100%;
@@ -427,7 +429,8 @@ footer {
     margin: 7.5% auto;
     font-size: 1.7vw; }
   section .pagina_proyecto_apollo .texto_pagina_proyecto p {
-    font-size: 1.5vw; }
+    font-size: 1.5vw;
+    font-weight: 400; }
   footer {
     height: 13vh; }
     footer .texto_foot {
@@ -502,7 +505,17 @@ footer {
         footer .foot_apollo .texto_foot i {
           font-size: 1.8vh !important; } }
 
+@media (min-aspect-ratio: 5 / 7) {
+  .prin_proy_landscape {
+    display: flex; }
+  .prin_proy_portrait {
+    display: none !important; } }
+
 @media (max-aspect-ratio: 5 / 7) {
+  .prin_proy_landscape {
+    display: none; }
+  .prin_proy_portrait {
+    display: flex !important; }
   section .portada_apollo .texto_portada {
     top: 66%; }
     section .portada_apollo .texto_portada h2 {
@@ -513,18 +526,28 @@ footer {
       font-size: 2.5vh;
       padding-right: 0; }
   section .presentacion_apollo {
-    height: 26vh; }
+    height: 26vh;
+    border-top: 0.75rem solid #fff; }
   section .texto_presentacion_apollo h2 {
     font-size: 2.3vh;
     margin-bottom: 1.2vh; }
   section .texto_presentacion_apollo p {
     font-size: 1.4vh; }
-  section .text_prin_proy .link_proy_apollo {
-    padding: 1% 12%; }
-    section .text_prin_proy .link_proy_apollo h2 {
-      font-size: 3.6vh; }
-    section .text_prin_proy .link_proy_apollo p {
-      display: none; }
+  section .img_prin_proy {
+    width: 100%;
+    border-top: 1rem solid #fff; }
+  section .text_prin_proy {
+    width: 100%;
+    border-bottom: 0.5rem solid #fff; }
+    section .text_prin_proy .link_proy_apollo {
+      padding: 3% 5%;
+      width: 100%; }
+      section .text_prin_proy .link_proy_apollo h2 {
+        width: 100%;
+        font-size: 3.4vh;
+        line-height: 120%; }
+      section .text_prin_proy .link_proy_apollo p {
+        display: none; }
   section .scc_proy_sec {
     padding: 0.3rem;
     background-color: #fff; }
@@ -610,17 +633,21 @@ footer {
     section .portada_apollo .texto_portada p {
       font-size: 5vw; }
   section .presentacion_apollo {
-    height: 18vh; }
+    height: 18vh;
+    border-width: 0.5rem; }
   section .texto_presentacion_apollo h2 {
     font-size: 4.8vw;
     margin-bottom: 1vh; }
   section .texto_presentacion_apollo p {
     font-size: 2.4vw;
     margin: 0; }
+  section .img_prin_proy {
+    width: 100%;
+    border-width: 0.5rem; }
   section .text_prin_proy .link_proy_apollo {
-    padding: 1% 12%; }
+    padding: 2% 4%; }
     section .text_prin_proy .link_proy_apollo h2 {
-      font-size: 6vw; }
+      font-size: 2.6vh; }
   section .scc_proy_sec .img_sec_proy {
     height: 20vh; }
     section .scc_proy_sec .img_sec_proy .centrar_imagen img {

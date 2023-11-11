@@ -250,6 +250,7 @@
                 }
                 p{
                     font-size: 1.5vw;
+                    font-weight: 400;
                 }
             }
         }
@@ -379,7 +380,22 @@
     }
 }
 
+@media (min-aspect-ratio: 5/7){
+    .prin_proy_landscape{
+        display: flex;
+    }
+    .prin_proy_portrait{
+        display: none !important;
+    }
+}
+
 @media (max-aspect-ratio: 5/7){
+    .prin_proy_landscape{
+        display: none;
+    }
+    .prin_proy_portrait{
+        display: flex !important;
+    }
     section{
         .portada_apollo{
             .texto_portada{
@@ -397,6 +413,7 @@
         }
         .presentacion_apollo{
             height: 26vh;
+            border-top: 0.75rem solid #fff;
         }
         .texto_presentacion_apollo{
             h2{
@@ -407,11 +424,20 @@
                 font-size: 1.4vh;
             }
         }
+        .img_prin_proy{
+            width: 100%;
+            border-top: 1rem solid #fff;
+        }
         .text_prin_proy{
+            width: 100%;
+            border-bottom: 0.5rem solid #fff;
             .link_proy_apollo{
-                padding: 1% 12%;
+                padding: 3% 5%;
+                width: 100%;
                 h2{
-                    font-size: 3.6vh;
+                    width: 100%;
+                    font-size: 3.4vh;
+                    line-height: 120%;
                 }
                 p{
                     display: none;
@@ -540,6 +566,7 @@
         }
         .presentacion_apollo{
             height: 18vh;
+            border-width: 0.5rem;
         }
         .texto_presentacion_apollo{
             h2{
@@ -551,11 +578,15 @@
                 margin: 0;
             }
         }
+        .img_prin_proy{
+            width: 100%;
+            border-width: 0.5rem;
+        }
         .text_prin_proy{
             .link_proy_apollo{
-                padding: 1% 12%;
+                padding: 2% 4%;
                 h2{
-                    font-size: 6vw;
+                    font-size: 2.6vh;
                 }
             }
         }
