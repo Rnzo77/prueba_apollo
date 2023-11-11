@@ -32,7 +32,7 @@ section{
                 a{
                     display: inline-block;
                     color: #000;
-                    font-size: 1.24vw;
+                    font-size: 1vw;
                     font-weight: 700;
                     padding: 1.1% 10%;
                     white-space: nowrap;
@@ -72,19 +72,19 @@ section{
             h2{
                 width: 80%;
                 margin: 6% auto;
-                font-size: 4vw;
+                font-size: 3vw;
                 font-weight: 700;
                 line-height: 1.2;
             }
             .texto_servicios{
                 margin: 2.5% auto;
-                font-size: 1.2vw;
+                font-size: 1vw;
                 font-weight: 500;
             }
             p{
                 width: 80%;
                 margin: 0 auto;
-                font-size: 1.05vw;
+                font-size: 0.85vw;
                 font-weight: 300;
                 line-height: 160%;
             }
@@ -93,6 +93,7 @@ section{
             width: 66.666%;
             margin-left: 33.333%;
             background-color: #fff;
+            padding-bottom: 2.5%;
             img{
                 width: 90%;
                 margin: 2.5% 5%;

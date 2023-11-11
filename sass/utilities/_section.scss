@@ -36,9 +36,22 @@ section{
         width: 50%;
         background-color: #fff;
         color: #000;
-        overflow: hidden;
-        img{
-            width: 100%;
+        display: flex;
+        .imagenes_presentacion_apollo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 33.333%;
+            height: 100%;
+            img{
+                max-width: 100%;
+                min-height: 100%;
+                object-fit: cover;
+            }
+        }
+        .img_pres_central{
+            border-right: 0.5rem solid #fff;
+            border-left: 0.5rem solid #fff;
         }
     }
     .texto_presentacion_apollo{
@@ -157,22 +170,25 @@ section{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        align-items: center;
+        justify-content: center;
         background-color: #fff;
-        padding: 3% 10%;
-        height: 39vh;
+        padding: 1.5% 10%;
+        height: 52vh;
         text-align: center;
         h2{
             font-size: 1.6vw;
             font-weight: 700;
             width: 100%;
-            padding-top: 2%;
             margin: 0;
         }
-        img{
-            width: 10%;
-            aspect-ratio: 3/2;
-            object-fit: contain;
+        .logos_clientes{
+            width: 20%;
+            img{
+                width: 50%;
+                aspect-ratio: 2;
+                object-fit: contain;
+            }
         }
     }
 }
